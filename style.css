@@ -1,0 +1,89 @@
+/*Selector{
+	Property:;
+}*/
+/*for css properties and selectors see  CSS TRICKS .COM*/
+body{
+	background-image: url(https://images.pexels.com/photos/235986/pexels-photo-235986.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover; 
+}
+h2{
+	color: red;
+	text-align: center;
+	/*border: 4px dashed #477087- for bordere*/; /*Palleton.com*/
+	cursor: help;  /*cursor type will be available in W3schools.com*/
+}
+p {
+	color: rgba(219, 241, 161, 0.9); /*rgba (red:0-255 , green:0-255 , blue:0-255,opticity:0-1)*/
+	cursor: not-allowed;
+	/*color:red !important;*/    /*!important selctor overwrites all the styles*/
+}
+li{
+	color: black;
+	list-style: none; /*the dots will be removed*//* we can add list-style randomly*/
+	display: inline-block; /*all the statements in li will be in a single line*/
+	background-color: black;
+
+}
+
+.Boss{          /*Boss is value*/ /*using class selector*/
+	border: 5px solid #7A4A8D;
+	color: pink;
+}
+.Boss1{
+        color: blue;
+        text-align: right;
+}
+
+#div1{          /*#div is the value - usind ID selector*/
+       border:4px dotted pink;
+       text-type
+}
+
+#div2{          /*#div is the value - usind ID selector*/
+       border:2px solid white;
+       text-type
+}
+
+.a , .b {       /*element,element selcetor */        
+	color: red;
+}
+
+.a , b {            /*select all elements of b which are in .a */
+	color: white;
+}
+.c:hover{            /*hover selector is used*/
+	background-color: red;
+	text-align: center;
+
+}
+.text{
+	  text-align: center;
+	   border: 3px solid #D4C86A;
+	  text-decoration: underline;
+	  color:#FFFCAA;
+	  line-height: 80px;
+	  font-style: italic;
+	  font-size: 150%;
+	  font-family: 'Monotype+Cursiva', cursive;
+	  text-transform: lowercase;
+}
+img{
+	float: right;
+}
+footer{
+	clear: both;   /* just to avoid the float property of the image */
+	color: red;
+	text-align: center;
+	font-size:150%;
+}
+ .boxmodel{
+ 	color: white;
+ 	font-size: 150%;
+ 	border: 5px solid red;
+ 	display: inline-block;
+ 	padding: 10px 20px 10px 20px;    /*specific box size in the order (top  right  bottom  left )*/
+ 	margin: 10px 40px 10px 40px;
+ 	
+ 	
+
+ }
